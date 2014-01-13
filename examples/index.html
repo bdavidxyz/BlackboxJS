@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta charset="utf-8">
+    <title>BlackboxJS example page</title>
+
+    <style type="text/css">
+
+        body {
+            background: #fefefe;
+            font-family: menlo;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: monospace, prestige;
+        }
+
+        h2 {
+            margin-top: 70px;
+        }
+
+        h3 {
+            font-size: 20px;
+            margin-top: 50px;
+        }
+
+        h5 {
+            font-size: 16px;
+            margin: 35px 0 0 0;
+        }
+
+        a {
+            color: #5fba3d;
+            text-decoration: underline;
+        }
+
+        pre {
+            background: #efefef;
+            padding: 10px 15px;
+            overflow-x: auto;
+        }
+
+        #sidebar {
+            background: #fefefe;
+            position: fixed;
+            z-index: 10;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            width: 200px;
+            overflow-y: auto;
+            overflow-x: hidden;
+            -webkit-overflow-scrolling: touch;
+            padding: 30px 0 30px 30px;
+            border-right: 1px solid #bbb;
+            box-shadow: 0 0 20px #ccc; -webkit-box-shadow: 0 0 20px #ccc; -moz-box-shadow: 0 0 20px #ccc;
+        }
+
+        #sidebar h4 {
+            margin-bottom: 5px;
+            margin-top: 20px;
+        }
+
+        #sidebar h4:first-child {
+            margin-top: 0;
+        }
+
+        #sidebar ul {
+            list-style: none;
+            padding: 0 0 0 10px;
+            margin: 0;
+        }
+
+        #content {
+            position: relative;
+            width: 550px;
+            margin: 30px 0 30px 260px;
+        }
+
+    </style>
+
+    <style type="text/css"></style></head>
+
+<body>
+
+<div id="sidebar">
+
+    <h4>
+        <a href="#title">BlackboxJS examples</a>
+        <a></a>
+    </h4>
+
+
+    <h4><a href="#introduction">introduction</a></h4>
+
+    <h4><a href="#examples">examples</a></h4>
+    <ul>
+        <li><a href="#restful-todoMVC">restful TodoMVC</a></li>
+        <li><a href="#classic-todoMVC">classic TodoMVC</a></li>
+    </ul>
+
+
+</div>
+
+<div id="content">
+
+    <h1 id="title">BlackboxJS examples</h1>
+
+    <p>BlackboxJS is a fork of <a href="https://github.com/karma-runner/karma-ng-scenario">ngScenario</a> that tries to achieve full end to end testing in ANY MVC based Javascript framework.</p>
+
+    <p>The project is available on  <a href="https://github.com/davidb583/BlackboxJS">Github</a> </p>
+
+    <h2 id="introduction">introduction</h2>
+
+    <p>Most of the UI testing framework are exercising visual components (button, textarea...) as an input,
+        and asserting visual component as an output. While correct, it is often not enough. </p>
+
+    <p>In the case of Single Page Application, the responsibility of the UI is also to <strong>send the correct data to the server</strong></p>
+
+    <p>Both examples below are asserting that data are correctly sent to the server.</p>
+
+    <h3 id="restful-todoMVC">RESTful TodoMVC</h3>
+
+
+
+</div>
+
+
+
+</body></html>
