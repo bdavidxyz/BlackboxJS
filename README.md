@@ -1,7 +1,7 @@
 # BlackboxJS
 
 
-blackbox testing framework of any Single Page Application written in JS.
+Blackbox testing framework of any Single Page Application written in JS.
 
 > "a functionnal test tool of a single page application should correctly check both 
 > input (eg. visual content) and 
@@ -60,8 +60,9 @@ expect(windowLocalStorage("todos-" + QueryString.fw).getItem()).not().toContain(
 
 ## Credits
 
-- blackbox-spa is a fork from [ngScenario](https://github.com/angular/bower-angular-scenario). However, ngScenario can not be used outside the Angular world. The tool has been hacked so that any javascript application could be blackbox-tested.
-- Samples under test are all part of the TodoMVC project.
+- BlackboxJS is a fork from [ngScenario](https://github.com/angular/bower-angular-scenario). However, ngScenario can not be used outside the Angular world. The tool has been hacked so that any javascript application could be blackbox-tested.
+- Samples under test are all part of the [TodoMVC project](http://todomvc.com/).
+- Example page theme from [brainy.io](http://brainy.io).
 
 ## TODOs :
 

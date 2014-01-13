@@ -90,10 +90,6 @@
         <a></a>
     </h4>
 
-
-    <h4><a href="#introduction">introduction</a></h4>
-
-    <h4><a href="#examples">examples</a></h4>
     <ul>
         <li><a href="#restful-todoMVC">restful TodoMVC</a></li>
         <li><a href="#classic-todoMVC">classic TodoMVC</a></li>
@@ -106,30 +102,31 @@
 
     <h1 id="title">BlackboxJS examples</h1>
 
-    <p>BlackboxJS is a fork of <a href="https://github.com/karma-runner/karma-ng-scenario">ngScenario</a> that tries to achieve full end to end testing in ANY MVC based Javascript framework.</p>
+    <p>BlackboxJS is a fork of <a href="https://github.com/karma-runner/karma-ng-scenario">ngScenario</a> that tries to achieve full end to end testing in any MVC based Javascript framework.</p>
 
     <p>The project is available on  <a href="https://github.com/davidb583/BlackboxJS">Github</a> </p>
 
-    <h2 id="introduction">introduction</h2>
-
-    <p>Most of the UI testing framework are exercising visual components (button, textarea...) as an input,
-        and asserting visual component as an output. While correct, it is often not enough. </p>
-
-    <p>In the case of Single Page Application, the responsibility of the UI is also to <strong>send the correct data to the server</strong></p>
-
-    <p>Both examples below are asserting that data are correctly sent to the server.</p>
-
-    <p>Note that there is only one test suite (one for classic, one for restful), but many framework tested.</p>
-
     <h3 id="restful-todoMVC">RESTful TodoMVC</h3>
 
-    <p>The <a href="">TodoMVC project</a>, with a RESTful adapter, so that request are fetch/sent to the server in a RESTful manner</p>
-    <p>The code for this example is available <a href="https://github.com/davidb583/BlackboxJS/blob/dev/examples/classicTodoMVC/test/e2e-test.js
-">here</a></p>
-    <p>simply click on a link to launch the tests.</p>
-    <p><a href=""> KnockoutJS implementation</a> </p>
-    <p><a href=""> JQuery implementation</a> </p>
+    <p>The <a href="http://todomvc.com/">TodoMVC project</a>, with a RESTful adapter, so that request are fetch/sent to the server in a RESTful manner. The code for this example is available <a href="https://github.com/davidb583/BlackboxJS/blob/dev/examples/restfulTodoMVC/test/e2e-test.js
+">here</a>.</p>
+    <p></p>
+    <p>Click on a link to launch the tests.</p>
+    <p><a href="/restfulTodoMVC/test/e2e.html?fw=knockoutjs"> KnockoutJS implementation</a> </p>
+    <p><a href="/restfulTodoMVC/test/e2e.html?fw=jquery"> JQuery implementation</a> </p>
+
+
     <h3 id="classic-todoMVC">Classic TodoMVC</h3>
+    <p><a href="/classicTodoMVC/test/e2e.html?fw=agilityjs" onclick="localStorage.clear()"> AgilityJS implementation </a> </p>
+    <p><a href="/classicTodoMVC/test/e2e.html?fw=atmajs" onclick="localStorage.clear()"> AtmaJS implementation </a> </p>
+    <p><a href="/classicTodoMVC/test/e2e.html?fw=backbone" onclick="localStorage.clear()"> BackboneJS implementation </a> </p>
+    <p><a href="/classicTodoMVC/test/e2e.html?fw=canjs" onclick="localStorage.clear()"> CanJS implementation </a> </p>
+    <p><a href="/classicTodoMVC/test/e2e.html?fw=dermis" onclick="localStorage.clear()"> Dermis implementation </a> </p>
+    <p><a href="/classicTodoMVC/test/e2e.html?fw=dijon" onclick="localStorage.clear()"> Dijon implementation </a> </p>
+    <p><a href="/classicTodoMVC/test/e2e.html?fw=ember" onclick="localStorage.clear()"> EmberJS implementation </a> </p>
+    <p><a href="/classicTodoMVC/test/e2e.html?fw=jquery" onclick="localStorage.clear()"> jQuery implementation </a> </p>
+    <p><a href="/classicTodoMVC/test/e2e.html?fw=knockout" onclick="localStorage.clear()"> KnockoutJS implementation </a> </p>
+    <p><a href="/classicTodoMVC/test/e2e.html?fw=thorax" onclick="localStorage.clear()"> ThoraxJS implementation </a> </p>
 
 </div>
 

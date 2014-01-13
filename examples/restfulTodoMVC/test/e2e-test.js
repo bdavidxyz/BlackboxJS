@@ -4,7 +4,6 @@
 /*global expect*/
 /*global repeater*/
 /*global jQueryFunction*/
-/*jslint node: true */
 /*global element */
 /*global lastRequest */
 /*global ROOT_URL */
@@ -18,9 +17,11 @@
 
 describe('Starting application', function() {
     it('Should get all items', function() {
+
         // set up
-        browser().navigateTo("/restful/" + QueryString.fw);
+        browser().navigateTo("/restfulTodoMVC/frameworkundertest/" + QueryString.fw);
         activateXHRlog();
+
         // assert
         expect(repeater('input.toggle').count()).toEqual(3);
         expect(element('li:eq(0)').text()).toMatch("item0");

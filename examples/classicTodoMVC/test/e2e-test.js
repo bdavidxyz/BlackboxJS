@@ -24,9 +24,7 @@ describe('Starting application', function() {
 
         it('Should NOT display main section when there are no item', function() {
             // set up
-            browser().navigateTo("/localstorage/" + QueryString.fw);
-
-            windowLocalStorage().clear();
+            browser().navigateTo("/classicTodoMVC/frameworkundertest/" + QueryString.fw);
 
             //ensure the page is displayed
             expect(repeater('section#todoapp').count()).toEqual(1);
