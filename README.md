@@ -51,6 +51,7 @@ expect(windowLocalStorage("todos-" + QueryString.fw).getItem()).not().toContain(
 2. Install [node and npm](http://www.nodejs.org)
 3. Go to the example folder and run `npm install` 
 4. Run `node app.js` 
+4. Open browser at http://localhost:3000 and follow the instructions
 
 ## Limitations
 
