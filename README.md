@@ -1,5 +1,6 @@
-<img height="250" align="center" src="http://gruntjs.com/img/grunt-logo.svg">
-
+<div style="text-align: center">
+<img height="250" src="http://gruntjs.com/img/grunt-logo.svg">
+</div>
 # BlackboxJS
 
 
