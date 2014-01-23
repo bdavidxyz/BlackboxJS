@@ -1,22 +1,146 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title></title>
-</head>
+<html lang="en" xmlns="http://www.w3.org/1999/html"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta charset="utf-8">
+    <title>BlackboxJS example page</title>
+
+    <style type="text/css">
+
+        body {
+            background: #fefefe;
+            font-family: menlo;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: monospace, prestige;
+        }
+
+        h2 {
+            margin-top: 100px;
+        }
+
+        h3 {
+            font-size: 20px;
+            margin-top: 50px;
+        }
+
+        h5 {
+            font-size: 16px;
+            margin: 35px 0 0 0;
+        }
+
+        a {
+            color: #5fba3d;
+            text-decoration: underline;
+            font-size: 18px;
+        }
+
+        pre {
+            background: #efefef;
+            padding: 10px 15px;
+            overflow-x: auto;
+        }
+
+        #sidebar {
+            background: #fefefe;
+            position: fixed;
+            z-index: 10;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            width: 215px;
+            overflow-y: auto;
+            overflow-x: hidden;
+            -webkit-overflow-scrolling: touch;
+            padding: 30px 0 30px 30px;
+            border-right: 1px solid #bbb;
+            box-shadow: 0 0 20px #ccc; -webkit-box-shadow: 0 0 20px #ccc; -moz-box-shadow: 0 0 20px #ccc;
+        }
+
+        #sidebar h4 {
+            margin-bottom: 5px;
+            margin-top: 20px;
+        }
+
+        #sidebar h4:first-child {
+            margin-top: 0;
+        }
+
+        #sidebar ul {
+            list-style: none;
+            padding: 0 0 0 10px;
+            margin: 0;
+        }
+
+        #content {
+            position: relative;
+            width: 750px;
+            margin: 30px 0 30px 260px;
+        }
+
+    </style>
+
+    </head>
+
 <body>
-This is my github page, version 2
-</body>
-<script type="text/javascript">
 
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-47336563-1']);
-    _gaq.push(['_trackPageview']);
+<div id="sidebar">
 
-    (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
+    <h4>
+        <a href="#title">BlackboxJS (0.0.1)</a>
+        <a></a>
+    </h4>
+    <h4>
+        <a >Available examples</a>
+        <a></a>
+    </h4>
+    <ul>
+        <li><a href="#restful-todoMVC">restful TodoMVC</a></li>
+        <li><a href="#classic-todoMVC">classic TodoMVC</a></li>
+    </ul>
 
-</script>
-</html>
+
+</div>
+
+<div id="content">
+
+    <h1 id="title">BlackboxJS </h1>
+
+    <p>BlackboxJS is a fork of <a href="https://github.com/karma-runner/karma-ng-scenario">ngScenario</a> that tries to achieve full end to end testing in any MVC based Javascript framework.</p>
+
+    <p>The project is available on  <a href="https://github.com/davidb583/BlackboxJS">Github</a> </p>
+
+    <h2 id="examples">Examples </h2>
+    <h3 id="availableexamples">Available examples </h3>
+
+    <h3 id="restful-todoMVC">RESTful TodoMVC</h3>
+
+    <p>The <a href="http://todomvc.com/">TodoMVC project</a>, with a RESTful adapter, so that request are fetch/sent to the server in a RESTful manner. The code for this example is available <a href="https://github.com/davidb583/BlackboxJS/blob/dev/examples/restfulTodoMVC/test/e2e-test.js
+">here</a>.</p>
+    <p></p>
+    <p>Click on a link to launch the tests.</p>
+    <p><a href="/restfulTodoMVC/test/e2e.html?fw=knockoutjs"> KnockoutJS implementation</a> </p>
+    <p><a href="/restfulTodoMVC/test/e2e.html?fw=jquery"> JQuery implementation</a> </p>
+
+
+    <h3 id="classic-todoMVC">Classic TodoMVC</h3>
+    <p><a href="/classicTodoMVC/test/e2e.html?fw=agilityjs" onclick="localStorage.clear()"> AgilityJS implementation </a> </p>
+    <p><a href="/classicTodoMVC/test/e2e.html?fw=atmajs" onclick="localStorage.clear()"> AtmaJS implementation </a> </p>
+    <p><a href="/classicTodoMVC/test/e2e.html?fw=backbone" onclick="localStorage.clear()"> BackboneJS implementation </a> </p>
+    <p><a href="/classicTodoMVC/test/e2e.html?fw=canjs" onclick="localStorage.clear()"> CanJS implementation </a> </p>
+    <p><a href="/classicTodoMVC/test/e2e.html?fw=dermis" onclick="localStorage.clear()"> Dermis implementation </a> </p>
+    <p><a href="/classicTodoMVC/test/e2e.html?fw=dijon" onclick="localStorage.clear()"> Dijon implementation </a> </p>
+    <p><a href="/classicTodoMVC/test/e2e.html?fw=ember" onclick="localStorage.clear()"> EmberJS implementation </a> </p>
+    <p><a href="/classicTodoMVC/test/e2e.html?fw=jquery" onclick="localStorage.clear()"> jQuery implementation </a> </p>
+    <p><a href="/classicTodoMVC/test/e2e.html?fw=knockout" onclick="localStorage.clear()"> KnockoutJS implementation </a> </p>
+    <p><a href="/classicTodoMVC/test/e2e.html?fw=thorax" onclick="localStorage.clear()"> ThoraxJS implementation </a> </p>
+
+</div>
+
+
+
+</body></html>

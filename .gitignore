@@ -7,6 +7,9 @@
 #ignore npm modules
 node_modules/
 
+#ignore local web server
+web-server.js
+
 # temporary files #
 *~
 
