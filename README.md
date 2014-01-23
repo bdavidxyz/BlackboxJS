@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img height="250" src="http://www.flickr.com/photos/95105150@N03/12103213234/">
+  <img height="250" src="http://farm6.staticflickr.com/5496/12103213234_8e952cb882.jpg">
 </p>
 
 
