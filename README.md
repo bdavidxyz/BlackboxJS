@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img height="250" src="http://gruntjs.com/img/grunt-logo.svg">
+  <img height="250" src="http://www.flickr.com/photos/95105150@N03/12103213234/">
 </p>
 
 
