@@ -1,7 +1,8 @@
-<div style="text-align: center">
-<img height="250" src="http://gruntjs.com/img/grunt-logo.svg">
-</div>
-# BlackboxJS
+
+<p align="center">
+  <img height="250" src="http://gruntjs.com/img/grunt-logo.svg">
+</p>
+
 
 
 Blackbox testing framework of any Single Page Application written in JS.
